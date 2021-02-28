@@ -5,6 +5,7 @@ ___
 * E-mail: tarpach@yandex.ru
 * Phone number: +375292746527
 * Telegram: Aleks Rebkavets
+* Skype: aleks.sapeha
 
 ___
 
