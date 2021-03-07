@@ -1,65 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="main-header">
-    <h1>Aleks Rebkavets</h1>
-    <img class="header-photo" width="50" height="50" src="assets/img/Aleks.jpg" alt="">
-  </header>
-  <main class="main-content">
-    <section class="summary">
-      <h2>
-        Summary
-      </h2>
-      <p class="content">
-        My goal is to finish this course and to become a good web developer. It is interesting for me and a good chance to get a useful information in short time.
-      </p>
-    </section>
-    <hr class="border">
-    <section class="skills">
-      <h2>
-        Skills:
-      </h2>
-      <ul class="content">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Js basics</li>
-        <li>Photoshop</li>
-        <li>Git</li>
-        <li>Brackets</li>
-      </ul>
-    </section>
-    <hr class="border">
-    <section class="education">
-      <h2>
-        Education
-      </h2>
-      <p class="content">
-        MSLU (1999 - 2005), htmlacademy, codecademy, udemy, codewars.
-      </p>      
-    </section>
-    <hr class="border">
-    <section class="english">
-      <h2>
-        English
-      </h2>
-      <p class="content">
-        My English level is A2.
-      </p>
-    </section>
-  </main>
-  <footer class="main-footer">
-    <div class="contact-info">
-      <ul class="contact-list">
-        <li class="contact-list-item">E-mail: tarpach@yandex.ru</li>
-        <li class="contact-list-item">Phone number: +375292746527</li>
-        <li class="contact-list-item">Telegram: Aleks Rebkavets</li>
-      </ul>
-    </div>
-  </footer>
+    <header>
+        <div class="top-line"></div>
+        <h1>Aleksandr Rebkavets</h1>
+    </header>
+    <main>
+        <div class="main-content">
+            <section class="left-column">
+                <div class="person">
+                    <img src="img/Aleks.jpg" width="50" height="50" alt="cv-photo">
+                    <h2 class="job-title">Frontend-developer</h2> 
+                </div>
+                <h2 class="summary">Summary</h2>
+                <p class="summary-text">My goal is to finish this course and to become a good web developer. It is interesting for me and a good chance to get a useful information in short time.</p>
+                <h2 class="contacts-title">Contacts</h2>    
+                <ul class="contacts">
+                    <li>E-mail: tarpach@yandex.ru</li>
+                    <li>Phone number: +375292746527</li>
+                </ul>   
+            </section>
+            <section class="right-column">
+                <h2 class="skills">Skills:</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS basics</li>
+                        <li>Photoshop</li>
+                        <li>Figma</li>
+                        <li>Git</li>
+                        <li>Visual Studio Code</li>
+                        <li>Sass</li>
+                    </ul>
+                <h2>Education</h2>
+                <p class="education">MSLU (1999 - 2005), htmlacademy, codecademy, udemy, codewars.</p>
+                <h2 class="english">English</h2>
+                <p class="english-level">My English level is A2.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <ul class="social-icons">
+            <li><a href="https://github.com/Aleks1982"><img src="img/github.png" width="24" height="24" alt=""></a></li>
+            <li><a href="https://www.facebook.com/aleks.rebkavets"><img src="img/facebook.png" width="24" height="24" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/feed/"><img src="img/linkedin.png" width="24" height="24" alt=""></a></li>
+        </ul>
+        <div class="bottom-line"></div>
+    </footer>
 </body>
 </html>
